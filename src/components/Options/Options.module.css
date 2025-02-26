@@ -1,0 +1,39 @@
+.buttonsContainer {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.button {
+  padding: 10px 15px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+.good {
+  background-color: #28a745;
+  color: white;
+}
+
+.neutral {
+  background-color: #ffc107;
+  color: black;
+}
+
+.bad {
+  background-color: #dc3545;
+  color: white;
+}
+
+.reset {
+  background-color: #6c757d;
+  color: white;
+}
